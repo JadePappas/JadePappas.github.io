@@ -53,7 +53,7 @@
 }
 
 .navbar__item{
-    height: 80px;
+    height: 40px;
 }
 
 .navbar__links{
@@ -626,10 +626,78 @@
   letter-spacing:3px;
 }
 
+/* Courses Section */
+.course {
+    background-color:#151515;
+    padding-top:20px;
+    padding-bottom:200px;
+}
+
+.header{
+    text-align:center;
+    color:#fff;
+    padding:1rem;
+    padding-top:150px;
+    padding-bottom:80px;
+    position:relative;
+    text-transform:uppercase;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    grid-gap:1rem;
+    padding:1rem 200px;
+    font-size:1.2rem;
+}
+
+.skill-box{
+    color:#ddd;
+    cursor:pointer;
+}
+
+.skill-title {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:0.5rem;
+    margin-bottom:0.5rem;
+    position:relative;
+}
+
+.skill-title h2 {
+    padding:.5rem;
+    background-color:#179d57;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+
+.skill-title h2:hover {
+    cursor: pointer;
+    background: #fff;
+    color:#000;
+  }
+
+@media screen and (max-width:999px) {
+    .container{
+        grid-template-columns:repeat(2, 1fr);
+        padding:2rem 50px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .container{
+        grid-template-columns:1fr;
+    }
+}
+
 /* Activities Section */
 
 .activities {
-    background: #151515;
+    background: #000000;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -641,12 +709,12 @@
   .activities h1 {
     text-transform: uppercase;
     color: #26e281;
-    margin-bottom: 5rem;
     font-size: 35px;
   }
   
   .activities__wrapper {
     display: grid;
+    padding-top:100px;
   }
   
   .activities__card {
@@ -760,7 +828,7 @@
 
   /* Contact Page */
   .contact {
-    background:#000;
+    background: #151515;
     text-align:center;
   }
 
@@ -782,7 +850,7 @@
 
   .info {
     margin:0;
-    background:#000;
+    background: #151515;
     min-height:50vh;
     display:flex;
     align-items:center;
