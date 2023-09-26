@@ -651,7 +651,7 @@
     text-align:center;
     grid-gap:1rem;
     padding:1rem 200px;
-    font-size:1.2rem;
+    font-size:1rem;
 }
 
 .skill-box{
@@ -670,7 +670,7 @@
 
 .skill-title h2 {
     padding:.5rem;
-    background-color:#179d57;
+    background-color:#2ab066;
     border-radius: 5px;
     transition: all .5s ease;
 }
