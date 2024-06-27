@@ -769,6 +769,17 @@
     );
   }
 
+  .activities__card:nth-child(6) {
+    background: #3aaf6f; /* fallback for old browsers */
+    background-image: linear-gradient(
+      -225deg,
+      #146b3c 0%,
+      #259356 29%,
+      #3aaf6f 67%,
+      #6cdb93 100%
+    );
+  }
+
   .activities__card h2 {
     text-align: center;
   }
