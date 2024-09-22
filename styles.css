@@ -35,7 +35,7 @@
     background-color: #38d089;
     background-image: linear-gradient(to top, #166641 0%, #51ff99 100%);
     background-size: 100%;
-    -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -294,7 +294,7 @@
         #56f78c
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
     background-size: 100%;
-    -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -mo-text-fill-color: transparent;
