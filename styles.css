@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
     font-family: 'Gill Sans';
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
     font-weight:350;
     letter-spacing:3px;
 }
