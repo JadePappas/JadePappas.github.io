@@ -930,3 +930,42 @@
       margin: 10px 0;
     }
   }
+
+  .footer {
+    background: #131313;
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+    border-top: 1px solid #2a2a2a;
+  }
+
+  .footer__thanks {
+    font-size: 1rem;
+    color: #26e281;
+    margin-bottom: 16px;
+    letter-spacing: 2px;
+  }
+
+  .footer__top {
+    display: inline-block;
+    color: #fff;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+  }
+
+  .footer__top:hover {
+    color: #56f78c;
+  }
+
+  .footer__top i {
+    font-size: 0.75rem;
+    margin-left: 6px;
+  }
+
+  .footer__copyright {
+    font-size: 0.85rem;
+    color: #888;
+    letter-spacing: 2px;
+  }
